@@ -1,0 +1,14 @@
+/* .flex{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    justify-content: space-between;
+} */
+
+/* .bgcolor{
+    background-color: orange;
+} */
+
+:root{
+    background-color: orangered;
+}

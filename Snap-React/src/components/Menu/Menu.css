@@ -1,0 +1,46 @@
+.space{
+    padding: 10px 20px;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px 10px 120px;
+}
+.bigtext{
+  
+   padding: 10px 0;
+   font-size: 80px;
+}
+.smalltext{
+    font-size: 22px;
+    padding: 20px 0;
+}
+.smalltext p{
+    padding: 2px 0;
+}
+button{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+#image{
+    height: 600px;
+    padding-right: 50px;
+}
+.images{
+    margin-top: 40px;
+}
+.images img{
+    width: 15%;
+    height:35px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .space{
+        background-color: yellow;
+    }
+}
