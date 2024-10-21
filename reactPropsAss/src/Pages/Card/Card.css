@@ -1,0 +1,5 @@
+.cardFlex {
+  display: flex;
+  justify-content: space-between;
+  color: #ADEFD1FF;  
+}

@@ -1,0 +1,7 @@
+.productListFlex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* border: 2px solid palevioletred; */
+  margin: 50px 0;
+}

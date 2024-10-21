@@ -1,0 +1,48 @@
+.Headercontainer {
+  /* background-color: lemonchiffon; */
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+
+  img{
+    margin-left: 30px;
+    width: 90%;
+  }
+}
+.Headerflex{
+    display: flex;
+    align-items: center;
+ /* border: 1px solid green; */
+ margin-right: 30px;
+
+  a{
+    /* border: 1px solid hotpink; */
+    margin: 0 12px;
+    text-decoration: none;
+    color: black;
+    font-weight: 530;
+    padding: 10px ;
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+  }
+
+  a:hover{
+    color: #0052cc;
+  }
+
+  button{
+    background-color: #0052cc;
+    color: white;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding: 15px 30px;
+    text-align: center;
+    border-color: transparent;
+    border-radius: 10px;
+  }
+}
+

@@ -1,0 +1,51 @@
+.footerFlex {
+  /* border: 1px solid red; */
+  padding: 10px 40px;
+  background: #f7f7f8;
+}
+
+.footerTools {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  div {
+    /* border: 1px solid red; */
+    padding: 30px 50px;
+  }
+  p {
+    font-size: 30px;
+    font-weight: 550;
+    padding-bottom: 20px;
+  }
+
+  a {
+    color: black;
+    font-size: 25px;
+    padding: 12px 0;
+    text-decoration: none;
+    display: block;
+  }
+
+  a:hover {
+    color: #0052cc;
+  }
+}
+
+.jobsApp {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* background-color: #0052cc; */
+  /* align-items: center; */
+  justify-content: space-evenly;
+  margin-top: -20px;
+}
+
+.coolorsFooter {
+  /* border: 2px solid purple; */
+  margin: 20px 0;
+  padding: 20px 30px;
+  font-size: 22px;
+}
