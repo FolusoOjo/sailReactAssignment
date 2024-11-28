@@ -1,12 +1,12 @@
 import "./ProfileCard.css";
 
-function ProfileCard({ name, age, location, profileImage }) {
+function ProfileCard({ name, age, id, location, profileImage , onclick}) {
   return (
     <>
       <div className="profileFlex">
         <div className="profile">
         
-          <div>
+          <div id={id}>
           <img
               src={profileImage}
               alt="profileImage"
@@ -15,6 +15,8 @@ function ProfileCard({ name, age, location, profileImage }) {
             <p>{name}</p>
             <p>{age}</p>
             <p>{location}</p>
+            <input type="checkbox" onClick={onclick}/>
+            <label>Theme</label>
           </div>
         </div>
       </div>

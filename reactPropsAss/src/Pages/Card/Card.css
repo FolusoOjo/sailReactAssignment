@@ -1,5 +1,11 @@
 .cardFlex {
   display: flex;
   justify-content: space-between;
-  color: #ADEFD1FF;  
+  /* color: #ADEFD1FF;   */
+}
+
+
+.darkmode{
+  background: black;
+  color: white;
 }

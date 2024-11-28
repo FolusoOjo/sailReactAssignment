@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #00203FFF;
+    /* background-color: #00203FFF; */
 
     p{
         font-size: 20px;
@@ -15,6 +15,8 @@
     }
    
 }
+
+
 
 .profileImage{
     width: 300px;
